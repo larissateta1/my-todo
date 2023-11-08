@@ -44,7 +44,7 @@ const TodoContainer=()=>{
 
     return(
         <div className="container">
-            <h1>Todo</h1>
+            <h1 className='titlee'>My Todo</h1>
             <Todos todos={todos} handleRemoveTodo={handleRemoveTodo}/>
 
             <div className='button-container'>
